@@ -1,6 +1,6 @@
 {
     "name": "cashfree/cashfree-verification",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Cashfree's Verification APIs provide different types of verification to our merchants.",
     "keywords": [
         "php",
@@ -8,7 +8,7 @@
         "rest",
         "api",
         "cashfree",
-        "payment gateway"
+        "verification suite"
     ],
     "homepage": "https://www.cashfree.com",
     "license": "Apache-2.0",
