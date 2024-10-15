@@ -22,12 +22,29 @@ composer require cashfree/cashfree-verification
 ### Configuration
 
 ```php
-\Cashfree\Cashfree::$XClientId = "<x-client-id>";
-\Cashfree\Cashfree::$XClientSecret = "<x-client-secret>";
-\Cashfree\Cashfree::$XEnvironment = Cashfree\Cashfree::$SANDBOX;
+\Cashfree\CashfreeVrs::$XClientId = "<x-client-id>";
+\Cashfree\CashfreeVrs::$XClientSecret = "<x-client-secret>";
+\Cashfree\CashfreeVrs::$XEnvironment = Cashfree\CashfreeVrs::$SANDBOX;
 ```
 
 Generate your API keys (x-client-id , x-client-secret) from [Cashfree Merchant Dashboard](https://merchant.cashfree.com/merchants/login)
+
+```php
+$cashfree = new \Cashfree\CashfreeVrs();
+
+$voter_id_request = new \Cashfree\Model\VoterIdRequestSchema();
+$voter_id_request->setEpicNumber("UAI4574761");
+$voter_id_request->setVerificationId("test12334");
+
+
+try {
+    $result = $cashfree->VrsVoterIdVerification($voter_id_request);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling VrsVoterIdVerification: ', $e->getMessage(), PHP_EOL;
+}
+
+
 
 ## Licence
 
