@@ -140,12 +140,6 @@ class CashfreeVrs {
         'vrsReversePennyDropFetchStatus' => [
             'application/json',
         ],
-        'vrsUpiAdvanceVerification' => [
-            'application/json',
-        ],
-        'vrsUpiMobileVerification' => [
-            'application/json',
-        ],
         'vrsVehicleRcVerification' => [
             'application/json',
         ],
@@ -168,7 +162,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsAadhaarOcrVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -433,7 +427,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -533,7 +527,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsMaskAadhaar",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -842,7 +836,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -930,7 +924,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsOfflineAadhaarSendOtp",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -1208,7 +1202,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -1287,7 +1281,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsOfflineAadhaarVerifyOtp",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -1542,7 +1536,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -1621,7 +1615,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsAdvanceEmploymentVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -1923,7 +1917,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -2002,7 +1996,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsCinVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -2304,7 +2298,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -2383,7 +2377,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsDigilockerVerificationCreateUrl",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -2662,7 +2656,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -2741,7 +2735,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsDigilockerVerificationFetchDocument",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -3063,7 +3057,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -3143,7 +3137,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsDigilockerVerificationFetchStatus",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -3435,7 +3429,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -3507,7 +3501,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsDrivingLicenseVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -3809,7 +3803,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -3888,7 +3882,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsESignCreateSignature",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -4167,7 +4161,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -4246,7 +4240,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsESignUploadDocument",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -4502,7 +4496,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -4586,7 +4580,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsESignVerificationFetchStatus",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -4855,7 +4849,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -4927,7 +4921,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsFaceMatchVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -5247,7 +5241,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -5363,7 +5357,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsGstinVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -5618,7 +5612,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -5697,7 +5691,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsIpVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -5975,7 +5969,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -6054,7 +6048,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsLivelinessCheck",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -6364,7 +6358,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -6456,7 +6450,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsNameMatchVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -6758,7 +6752,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -6837,7 +6831,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsBulkPanVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -7094,7 +7088,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -7173,7 +7167,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsFetchBulkPanDetails",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -7455,7 +7449,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -7527,7 +7521,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsFetchPanDetails",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -7807,7 +7801,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -7887,7 +7881,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsPanAdvanceVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -8189,7 +8183,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -8268,7 +8262,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsPanOcrVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -8532,7 +8526,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -8620,7 +8614,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsPanVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -8877,7 +8871,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -8956,7 +8950,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsPanToGstinVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -9258,7 +9252,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -9337,7 +9331,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsPassportVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -9639,7 +9633,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -9718,7 +9712,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsReverseGeocodingVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -10020,7 +10014,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -10099,7 +10093,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsReversePennyDropCreateRequest",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -10354,7 +10348,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -10433,7 +10427,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsReversePennyDropFetchStatus",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -10678,7 +10672,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -10738,722 +10732,6 @@ class CashfreeVrs {
     }
 
 
-    public function VrsUpiAdvanceVerification($upi_advance_request_schema, $x_cf_signature = null, GuzzleHttp\Client $http_client = null)
-    {
-
-        $env = "sandbox";
-        if(CashfreeVrs::$XEnvironment == CashfreeVrs::$PRODUCTION) {
-            $env = "production";
-        }
-        if(CashfreeVrs::$XEnableErrorAnalytics) {
-            \Sentry\init([
-                'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
-                'environment' => $env."VrsUpiAdvanceVerification",
-                'attach_stacktrace' => true,
-                'release' => '2.0.1',
-                'traces_sample_rate' => 1.0,
-                'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
-                    $cashfreeverification = "cashfree-verification";
-                    if (count($event->getExceptions()) > 0 && count($event->getExceptions()[0]->getStackTrace()->getFrames()) > 0) {
-                    if (strpos($event->getExceptions()[0]->getStackTrace()->getFrames()[0]->getFile(), $cashfreeverification) !== false) {
-                        $osContext = $event->getOsContext();
-                        $osContext->setKernelVersion("");
-                        $osContext->setMachineType("");
-                        $osContext->setKernelVersion("");
-                        $osContext->setVersion("");
-                        $event->setOsContext($osContext);
-                        if(CashfreeVrs::$XEnableErrorAnalytics) {
-                            return $event;
-                        }
-                        return null;
-                    }
-                    }
-                return null;
-                },
-            ]);
-        }
-
-        $this->client = new Client();
-        if($http_client !== null) {
-            $this->client = $http_client;
-        }
-        $this->headerSelector = new HeaderSelector();
-        $contentType = self::contentTypes['vrsUpiAdvanceVerification'][0];
-        $request = $this->vrsUpiAdvanceVerificationRequest($upi_advance_request_schema, $x_cf_signature, $contentType);
-
-        try {
-            $options = $this->createHttpClientOption();
-            try {
-                $response = $this->client->send($request, $options);
-            } catch (RequestException $e) {
-                throw new ApiException(
-                    "[{$e->getCode()}] {$e->getMessage()}",
-                    (int) $e->getCode(),
-                    null,
-                    null
-                );
-            } catch (ConnectException $e) {
-                throw new ApiException(
-                    "[{$e->getCode()}] {$e->getMessage()}",
-                    (int) $e->getCode(),
-                    null,
-                    null
-                );
-            }
-
-            $statusCode = $response->getStatusCode();
-
-            if ($statusCode < 200 || $statusCode > 299) {
-                throw new ApiException(
-                    sprintf(
-                        '[%d] Error connecting to the API (%s)',
-                        $statusCode,
-                        (string) $request->getUri()
-                    ),
-                    $statusCode,
-                    $response->getHeaders(),
-                    (string) $response->getBody()
-                );
-            }
-
-            switch($statusCode) {
-                case 200:
-                    if ('\Cashfree\Model\UpiAdvanceResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\UpiAdvanceResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\UpiAdvanceResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 400:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 401:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 403:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 422:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 500:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 502:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-            }
-
-            $returnType = '\Cashfree\Model\UpiAdvanceResponseSchema';
-            if ($returnType === '\SplFileObject') {
-                $content = $response->getBody(); //stream goes to serializer
-            } else {
-                $content = (string) $response->getBody();
-                if ($returnType !== 'string') {
-                    $content = json_decode($content);
-                }
-            }
-
-            return [
-                ObjectSerializer::deserialize($content, $returnType, []),
-                $response->getStatusCode(),
-                $response->getHeaders()
-            ];
-
-        } catch (ApiException $e) {
-            switch ($e->getCode()) {
-                case 200:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\UpiAdvanceResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 400:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 401:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 403:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 422:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 500:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 502:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-            }
-            throw $e;
-        }
-    }
-
-    public function vrsUpiAdvanceVerificationRequest($upi_advance_request_schema, $x_cf_signature = null, string $contentType = self::contentTypes['vrsUpiAdvanceVerification'][0])
-    {
-
-        // verify the required parameter 'upi_advance_request_schema' is set
-        if ($upi_advance_request_schema === null || (is_array($upi_advance_request_schema) && count($upi_advance_request_schema) === 0)) {
-            throw new \InvalidArgumentException(
-                'Missing the required parameter $upi_advance_request_schema when calling vrsUpiAdvanceVerification'
-            );
-        }
-
-
-
-        $resourcePath = '/upi/advance';
-        $formParams = [];
-        $queryParams = [];
-        $headerParams = [];
-        $httpBody = '';
-        $multipart = false;
-
-
-        $headers = $this->headerSelector->selectHeaders(
-            ['application/json', ],
-            $contentType,
-            $multipart
-        );
-
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
-
-        if (CashfreeVrs::$XClientSecret !== null) {
-            $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
-        }
-
-        if (CashfreeVrs::$XClientId !== null) {
-            $headers['x-client-id'] = CashfreeVrs::$XClientId;
-        }
-
-
-
-
-        // for model (json/xml)
-        if (isset($upi_advance_request_schema)) {
-            if (stripos($headers['Content-Type'], 'application/json') !== false) {
-                # if Content-Type contains "application/json", json_encode the body
-                $httpBody = \GuzzleHttp\Utils::jsonEncode(ObjectSerializer::sanitizeForSerialization($upi_advance_request_schema));
-            } else {
-                $httpBody = $upi_advance_request_schema;
-            }
-        } elseif (count($formParams) > 0) {
-            if ($multipart) {
-                $multipartContents = [];
-                foreach ($formParams as $formParamName => $formParamValue) {
-                    $formParamValueItems = is_array($formParamValue) ? $formParamValue : [$formParamValue];
-                    foreach ($formParamValueItems as $formParamValueItem) {
-                        $multipartContents[] = [
-                            'name' => $formParamName,
-                            'contents' => $formParamValueItem
-                        ];
-                    }
-                }
-                // for HTTP post (form)
-                $httpBody = new MultipartStream($multipartContents);
-
-            } elseif (stripos($headers['Content-Type'], 'application/json') !== false) {
-                # if Content-Type contains "application/json", json_encode the form parameters
-                $httpBody = \GuzzleHttp\Utils::jsonEncode($formParams);
-            } else {
-                // for HTTP post (form)
-                $httpBody = ObjectSerializer::buildQuery($formParams);
-            }
-        }
-
-        $defaultHeaders = [];
-
-        $headers = array_merge(
-            $defaultHeaders,
-            $headerParams,
-            $headers
-        );
-
-        $operationHost = "https://sandbox.cashfree.com/verification";
-        if(CashfreeVrs::$XEnvironment == CashfreeVrs::$PRODUCTION) {
-            $operationHost = "https://api.cashfree.com/verification";
-        }
-        $query = ObjectSerializer::buildQuery($queryParams);
-        return new Request(
-            'POST',
-            $operationHost . $resourcePath . ($query ? "?{$query}" : ''),
-            $headers,
-            $httpBody
-        );
-    }
-
-
-    public function VrsUpiMobileVerification($upi_mobile_request_schema, $x_cf_signature = null, GuzzleHttp\Client $http_client = null)
-    {
-
-        $env = "sandbox";
-        if(CashfreeVrs::$XEnvironment == CashfreeVrs::$PRODUCTION) {
-            $env = "production";
-        }
-        if(CashfreeVrs::$XEnableErrorAnalytics) {
-            \Sentry\init([
-                'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
-                'environment' => $env."VrsUpiMobileVerification",
-                'attach_stacktrace' => true,
-                'release' => '2.0.1',
-                'traces_sample_rate' => 1.0,
-                'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
-                    $cashfreeverification = "cashfree-verification";
-                    if (count($event->getExceptions()) > 0 && count($event->getExceptions()[0]->getStackTrace()->getFrames()) > 0) {
-                    if (strpos($event->getExceptions()[0]->getStackTrace()->getFrames()[0]->getFile(), $cashfreeverification) !== false) {
-                        $osContext = $event->getOsContext();
-                        $osContext->setKernelVersion("");
-                        $osContext->setMachineType("");
-                        $osContext->setKernelVersion("");
-                        $osContext->setVersion("");
-                        $event->setOsContext($osContext);
-                        if(CashfreeVrs::$XEnableErrorAnalytics) {
-                            return $event;
-                        }
-                        return null;
-                    }
-                    }
-                return null;
-                },
-            ]);
-        }
-
-        $this->client = new Client();
-        if($http_client !== null) {
-            $this->client = $http_client;
-        }
-        $this->headerSelector = new HeaderSelector();
-        $contentType = self::contentTypes['vrsUpiMobileVerification'][0];
-        $request = $this->vrsUpiMobileVerificationRequest($upi_mobile_request_schema, $x_cf_signature, $contentType);
-
-        try {
-            $options = $this->createHttpClientOption();
-            try {
-                $response = $this->client->send($request, $options);
-            } catch (RequestException $e) {
-                throw new ApiException(
-                    "[{$e->getCode()}] {$e->getMessage()}",
-                    (int) $e->getCode(),
-                    null,
-                    null
-                );
-            } catch (ConnectException $e) {
-                throw new ApiException(
-                    "[{$e->getCode()}] {$e->getMessage()}",
-                    (int) $e->getCode(),
-                    null,
-                    null
-                );
-            }
-
-            $statusCode = $response->getStatusCode();
-
-            if ($statusCode < 200 || $statusCode > 299) {
-                throw new ApiException(
-                    sprintf(
-                        '[%d] Error connecting to the API (%s)',
-                        $statusCode,
-                        (string) $request->getUri()
-                    ),
-                    $statusCode,
-                    $response->getHeaders(),
-                    (string) $response->getBody()
-                );
-            }
-
-            switch($statusCode) {
-                case 200:
-                    if ('\Cashfree\Model\UpiMobileResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\UpiMobileResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\UpiMobileResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 400:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 401:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 403:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 409:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 422:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-                case 500:
-                    if ('\Cashfree\Model\ErrorResponseSchema' === '\SplFileObject') {
-                        $content = $response->getBody(); //stream goes to serializer
-                    } else {
-                        $content = (string) $response->getBody();
-                        if ('\Cashfree\Model\ErrorResponseSchema' !== 'string') {
-                            $content = json_decode($content);
-                        }
-                    }
-
-                    return [
-                        ObjectSerializer::deserialize($content, '\Cashfree\Model\ErrorResponseSchema', []),
-                        $response->getStatusCode(),
-                        $response->getHeaders()
-                    ];
-            }
-
-            $returnType = '\Cashfree\Model\UpiMobileResponseSchema';
-            if ($returnType === '\SplFileObject') {
-                $content = $response->getBody(); //stream goes to serializer
-            } else {
-                $content = (string) $response->getBody();
-                if ($returnType !== 'string') {
-                    $content = json_decode($content);
-                }
-            }
-
-            return [
-                ObjectSerializer::deserialize($content, $returnType, []),
-                $response->getStatusCode(),
-                $response->getHeaders()
-            ];
-
-        } catch (ApiException $e) {
-            switch ($e->getCode()) {
-                case 200:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\UpiMobileResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 400:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 401:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 403:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 409:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 422:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-                case 500:
-                    $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
-                        '\Cashfree\Model\ErrorResponseSchema',
-                        $e->getResponseHeaders()
-                    );
-                    $e->setResponseObject($data);
-                    break;
-            }
-            throw $e;
-        }
-    }
-
-    public function vrsUpiMobileVerificationRequest($upi_mobile_request_schema, $x_cf_signature = null, string $contentType = self::contentTypes['vrsUpiMobileVerification'][0])
-    {
-
-        // verify the required parameter 'upi_mobile_request_schema' is set
-        if ($upi_mobile_request_schema === null || (is_array($upi_mobile_request_schema) && count($upi_mobile_request_schema) === 0)) {
-            throw new \InvalidArgumentException(
-                'Missing the required parameter $upi_mobile_request_schema when calling vrsUpiMobileVerification'
-            );
-        }
-
-
-
-        $resourcePath = '/upi/mobile';
-        $formParams = [];
-        $queryParams = [];
-        $headerParams = [];
-        $httpBody = '';
-        $multipart = false;
-
-
-        $headers = $this->headerSelector->selectHeaders(
-            ['application/json', ],
-            $contentType,
-            $multipart
-        );
-
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
-
-        if (CashfreeVrs::$XClientSecret !== null) {
-            $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
-        }
-
-        if (CashfreeVrs::$XClientId !== null) {
-            $headers['x-client-id'] = CashfreeVrs::$XClientId;
-        }
-
-
-
-
-        // for model (json/xml)
-        if (isset($upi_mobile_request_schema)) {
-            if (stripos($headers['Content-Type'], 'application/json') !== false) {
-                # if Content-Type contains "application/json", json_encode the body
-                $httpBody = \GuzzleHttp\Utils::jsonEncode(ObjectSerializer::sanitizeForSerialization($upi_mobile_request_schema));
-            } else {
-                $httpBody = $upi_mobile_request_schema;
-            }
-        } elseif (count($formParams) > 0) {
-            if ($multipart) {
-                $multipartContents = [];
-                foreach ($formParams as $formParamName => $formParamValue) {
-                    $formParamValueItems = is_array($formParamValue) ? $formParamValue : [$formParamValue];
-                    foreach ($formParamValueItems as $formParamValueItem) {
-                        $multipartContents[] = [
-                            'name' => $formParamName,
-                            'contents' => $formParamValueItem
-                        ];
-                    }
-                }
-                // for HTTP post (form)
-                $httpBody = new MultipartStream($multipartContents);
-
-            } elseif (stripos($headers['Content-Type'], 'application/json') !== false) {
-                # if Content-Type contains "application/json", json_encode the form parameters
-                $httpBody = \GuzzleHttp\Utils::jsonEncode($formParams);
-            } else {
-                // for HTTP post (form)
-                $httpBody = ObjectSerializer::buildQuery($formParams);
-            }
-        }
-
-        $defaultHeaders = [];
-
-        $headers = array_merge(
-            $defaultHeaders,
-            $headerParams,
-            $headers
-        );
-
-        $operationHost = "https://sandbox.cashfree.com/verification";
-        if(CashfreeVrs::$XEnvironment == CashfreeVrs::$PRODUCTION) {
-            $operationHost = "https://api.cashfree.com/verification";
-        }
-        $query = ObjectSerializer::buildQuery($queryParams);
-        return new Request(
-            'POST',
-            $operationHost . $resourcePath . ($query ? "?{$query}" : ''),
-            $headers,
-            $httpBody
-        );
-    }
-
-
     public function VrsVehicleRcVerification($vehicle_rc_request_schema, $x_cf_signature = null, GuzzleHttp\Client $http_client = null)
     {
 
@@ -11466,7 +10744,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsVehicleRcVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -11768,7 +11046,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
@@ -11847,7 +11125,7 @@ class CashfreeVrs {
                 'dsn' => 'https://f694e61bc6394e80bd2f687a4249a204@o330525.ingest.sentry.io/4505248768327680',
                 'environment' => $env."VrsVoterIdVerification",
                 'attach_stacktrace' => true,
-                'release' => '2.0.1',
+                'release' => '3.0.0',
                 'traces_sample_rate' => 1.0,
                 'before_send' => function (\Sentry\Event $event): ?\Sentry\Event {
                     $cashfreeverification = "cashfree-verification";
@@ -12149,7 +11427,7 @@ class CashfreeVrs {
             $multipart
         );
 
-        $headers['x-sdk-platform'] = "phpsdk-2.0.1";
+        $headers['x-sdk-platform'] = "phpsdk-3.0.0";
 
         if (CashfreeVrs::$XClientSecret !== null) {
             $headers['x-client-secret'] = CashfreeVrs::$XClientSecret;
