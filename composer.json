@@ -1,6 +1,6 @@
 {
     "name": "cashfree/cashfree-verification",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Cashfree's Verification APIs provide different types of verification to our merchants.",
     "keywords": [
         "php",
